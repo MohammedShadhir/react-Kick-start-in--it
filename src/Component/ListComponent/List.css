@@ -1,0 +1,27 @@
+div.completed>p {
+    text-decoration: line-through;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main p,
+.main button {
+    margin-left: 12px;
+    font-size: 30px;
+    color: rgb(219, 131, 14);
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.main button {
+
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: green;
+}

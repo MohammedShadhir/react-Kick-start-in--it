@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(235, 233, 236);
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(27, 27, 26);
+    font-size: 50px;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+#text,
+#date,
+#dropdown,
+#btn {
+    background-color: rgb(255, 232, 127);
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#date,
+#dropdown {
+    width: 300px;
+}
+
+#btn {
+    width: 100px;
+}
